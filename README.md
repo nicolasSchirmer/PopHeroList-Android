@@ -102,7 +102,7 @@ Used on the ResponseObjects to add serialization annotation capabilities and the
 
 ### Test
 
-The on device test was primary way of testing the app, but in the code there also instrumentation tests and unit tests (jUnit, Mockito and Expresso).
+The "on device" type of test was primary way of testing the app due to grear Android Studio support to better understand network usages, memory usage and cpu usage, but in the code there also instrumentation tests and unit tests (jUnit, Mockito and Expresso).
 
 The API calls where tested with unit testing to see if the objects are returning correctly from the API.
 
