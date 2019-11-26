@@ -1,0 +1,36 @@
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion projectSdkVersion
+    buildToolsVersion = buildVersion
+
+    defaultConfig {
+        minSdkVersion projectMinSdkVersion
+        targetSdkVersion projectSdkVersion
+        testInstrumentationRunner AndroidJunitRunner
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    flavorDimensions serviceUrl
+    productFlavors {
+        // Add new flavors here
+        hml {}
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation jUnit
+    testImplementation mockito
+    androidTestImplementation androidxJunit
+    androidTestImplementation androidxExpresso
+    androidTestImplementation androidxTestRunner
+    androidTestImplementation androidxTestRules
+}

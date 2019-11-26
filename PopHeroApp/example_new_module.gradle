@@ -1,0 +1,27 @@
+/**
+ *
+ *  This is an example when a new MODULE is created
+ *
+ * Copy it and replace all the module gradle file
+ *
+ * **/
+
+/*
+
+apply plugin: 'com.android.dynamic-feature'
+apply from: '../build_commons.gradle'
+
+android {
+
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+    }
+
+}
+
+dependencies {
+    api project(module_Base)
+}
+
+*/

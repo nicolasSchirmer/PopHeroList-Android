@@ -1,0 +1,26 @@
+apply from: '../build_commons_library.gradle'
+
+android {
+
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+    }
+
+    // These flavors are in  serviceUrl dimension
+    productFlavors {
+        hml {
+            buildConfigField "String", "BASE_URL", "\"https://bitbucket.org/\""
+            buildConfigField "String", "PATH_IMAGE", "\"dttden/mobile-coding-challenge/raw/259972edefb1eed313b3a8f1a0cc1d822aa5914f/\""
+            buildConfigField "String", "PATH_API", "\"!api/2.0/repositories/dttden/mobile-coding-challenge/src/259972edefb1eed313b3a8f1a0cc1d822aa5914f/\""
+        }
+    }
+
+}
+
+dependencies {
+    api project(library_HttpRequester)
+    api project(library_ResponseObjects)
+
+    implementation retrofit
+}

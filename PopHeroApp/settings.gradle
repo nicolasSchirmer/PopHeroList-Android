@@ -1,0 +1,16 @@
+apply from: 'internal_modules.gradle'
+apply from: 'internal_libraries.gradle'
+
+// modules
+include module_Base,
+        module_PopList
+
+// libraries
+include library_NetworkChecker,
+        library_HttpRequester,
+        library_WebApi,
+        library_ResponseObjects,
+        library_CoreUi,
+        library_Widgets
+
+rootProject.name='PopHero'

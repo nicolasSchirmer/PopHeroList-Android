@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="8"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_main"
+    tools:context=".PopListActivity">
+
+    <TextView
+        android:layout_weight="1.2"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/title_poplist"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:rotation="355" />
+
+    <include
+        layout="@layout/hero_list"
+        android:layout_weight="6"
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin" />
+
+    <com.nschirmer.widgets.YearSelector
+        android:id="@+id/yearselector"
+        android:layout_weight="0.8"
+        app:placeholderText=""
+        app:leftIcon="@drawable/ic_arrow_left"
+        app:rightIcon="@drawable/ic_arrow_right"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+</LinearLayout>

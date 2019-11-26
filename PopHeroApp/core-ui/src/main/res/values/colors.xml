@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3D00</color>
+    <color name="colorPrimaryDark">#A02A04</color>
+    <color name="colorAccent">#FFD600</color>
+
+    <color name="text_color">#222222</color>
+
+    <color name="medal_gold">#ffa238</color>
+    <color name="medal_silver">#c9c9c9</color>
+    <color name="medal_bronze">#d6a180</color>
+
+    <color name="gray_light">#f7f7f7</color>
+    <color name="gray">#8e8e8e</color>
+    <color name="gray_dark">#767676</color>
+    <color name="black">#1d1d1d</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Text -->
+    <style name="Text" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Title" parent="Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_title_size</item>
+    </style>
+
+    <style name="Text.Common" parent="Text">
+        <item name="android:textSize">@dimen/text_common_size</item>
+    </style>
+
+</resources>

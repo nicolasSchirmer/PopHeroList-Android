@@ -1,0 +1,8 @@
+ext {
+    library_CoreUi = ":core-ui"
+    library_Widgets = ":widgets"
+    library_NetworkChecker = ":network-checker"
+    library_HttpRequester = ":http-requester"
+    library_WebApi = ":web-api"
+    library_ResponseObjects = ":response-objects"
+}

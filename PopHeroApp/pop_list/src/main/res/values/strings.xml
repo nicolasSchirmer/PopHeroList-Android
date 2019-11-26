@@ -1,0 +1,10 @@
+<resources>
+    <string name="title_poplist">PopHero</string>
+
+    <string name="loading">Loading</string>
+    <string name="error">Error</string>
+    <string name="nonet">No internet</string>
+
+    <string name="list_name_placeholder">Some Hero</string>
+    <string name="list_score_label">Score: %1$s</string>
+</resources>

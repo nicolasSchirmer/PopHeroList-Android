@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="YearSelector">
+        <attr name="placeholderText" format="string"/>
+        <attr name="leftIcon" format="reference" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="cardRadius" format="dimension" />
+    </declare-styleable>
+</resources>
