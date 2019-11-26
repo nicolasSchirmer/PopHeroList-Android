@@ -7,7 +7,7 @@ This is an app that is truly modular, with instrumentation/unit test in each mod
 
 ### [APK](base-hml-debug.apk)
 
-## How works
+## How it works
 
 The app searches on the bitbucket api to discover which years are available inside the project repository. Then saves in memory the list of years and request the json through the bitbucket api as well.
 
