@@ -97,3 +97,15 @@ An easy way to all API requests.
 #### [Gson](https://github.com/google/gson)
 
 Used on the ResponseObjects to add serialization annotation capabilities and the ability to transform any class/list into a Json without the need to add annotations to the class.
+
+
+
+### Test
+
+The on device test was primary way of testing the app, but in the code there also instrumentation tests and unit tests (jUnit, Mockito and Expresso).
+
+The API calls where tested with unit testing to see if the objects are returning correctly from the API.
+
+In the response object Year method to filter out the year from the path  was unit tested to see if filtering correctly.
+
+Inside the pop list feature there are instrumentation tests and unit tests to confirm that the messages are being displayed correctly and if the button for the year selection is working fine.
