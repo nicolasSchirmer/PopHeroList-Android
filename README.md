@@ -74,3 +74,22 @@ Is the hero popularity feature module (dynamic module) that contains the logic t
 
 <img src="uml/pop_list.jpg" alt="poplist" style="zoom: 33%;" />
 
+
+
+### Third party libraries
+
+#### [Fresco](https://frescolib.org/)
+
+This lib contains an excellent caching, memory managment for bitmaps and resizing. It's very easy to work with image download.
+
+#### [Retrofit](https://square.github.io/retrofit/)
+
+This lib has outstanding capabilities, due to it's easy of use, reliability and modularity. Can be bundled with the [Retrofit Gson Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/gson) to automatic transform json to non annotated classes using [Gson](https://github.com/google/gson). Under the hood this library uses the [OkHttp](https://square.github.io/okhttp/), that is a very powerfull http dns basedlibrary.
+
+#### [OkHttpLogInterceptor](https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor)
+
+An easy way to all API requests.
+
+#### [Gson](https://github.com/google/gson)
+
+Used on the ResponseObjects to add serialization annotation capabilities and the ability to transform any class/list into a Json without the need to add annotations to the class.
