@@ -11,6 +11,10 @@ This is an app that is truly modular, with instrumentation/unit test in each mod
 
 The app searches on the bitbucket api to discover which years are available inside the project repository. Then saves in memory the list of years and request the json through the bitbucket api as well.
 
+<img src="bitbucketapi.png" alt="bithack" style="zoom: 33%;" />
+
+*(Disconvering the API calls and getting the true base URL)*
+
 ### Architecture
 This solution is kind overkill for this project, but I was hoping to show a good and scalable solution.
 
